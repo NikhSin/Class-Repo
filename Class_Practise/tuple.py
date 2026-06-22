@@ -29,3 +29,25 @@
 #     return new_tuple
 # res=marks_tuples(marks_tuple)
 # print(res)
+
+##1 WAF to sum of indices
+
+# marks_tuple=(50,55,69,34,89)
+# def sum_of_indices(marks_tuple):
+#     sum=0
+#     for i in range(len(marks_tuple)):
+#         sum+=i
+#     return sum
+
+# res=sum_of_indices(marks_tuple)
+# print(res)
+
+#Tuple Comprehension
+# marks_tuple=(50,55,69,34,89)    
+
+# def sum_of_indices(marks_tuple):
+#     return sum([i for i in range(len(marks_tuple))])
+
+# print(sum_of_indices(marks_tuple))
+
+
