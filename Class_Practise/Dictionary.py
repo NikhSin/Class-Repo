@@ -47,3 +47,32 @@
 
 # stu_marks.update(stu_marks_new)
 # print(stu_marks)
+
+# profile={
+#     "aman":{"address":["Noida","Delhi","Gurgaon"],
+#             "Mobile":["+917773837997","+918269256267"],
+#             "subject":["Hindi","English","Maths"],
+#             "password":{"insta":5648838893,"fb":68389384}
+#             },
+
+#     "arjun":{"address":["Satna","Patna","Ranchi"]
+#     ,"Mobile":["+917773837997","+918269256267"],
+#     "subject":["Hindi","English","Maths"],
+#     "password":{"insta":5648838893,"fb":68389384}
+#     },
+
+#     "abhishek":{"address":["Junagad","Jamshedpur","Jhansi"],
+#     "Mobile":["+917773837997","+918269256267"],
+# "subject":["Hindi","English","Maths"],
+# "password":{"insta":5648838893,"fb":68389384}
+#     }
+# }
+
+# print(profile.get("aman")["password"]["insta"])
+
+marks=[56,78,89]
+stu_name=["a","b","c"]
+res=zip(stu_name,marks)
+print(dict(res))
+
+#
